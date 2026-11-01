@@ -2,3 +2,5 @@ title: "My Technical Notes"
 description: "Practical guides for developers and self-hosters"
 author: jslirola
 theme: minima
+header_pages:
+  - LICENSE-CONTENT.md
