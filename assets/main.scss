@@ -1,0 +1,29 @@
+---
+---
+
+$brand-color: #0f766e;
+$text-color: #1f2933;
+$background-color: #fbfcfd;
+$grey-color: #6b7280;
+
+@import "minima";
+
+.site-header {
+  border-top: 5px solid $brand-color;
+}
+
+.site-title,
+.site-title:visited {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  color: $brand-color;
+
+  &::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: url("/assets/logo.svg") no-repeat center / contain;
+  }
+}
